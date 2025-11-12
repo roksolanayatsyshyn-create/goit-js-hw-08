@@ -205,10 +205,12 @@ const onModalOpen = event => {
   const originalImage = clickedImage.dataset.source;
 
   const modalWindow = basicLightbox.create(`
-    <img src="${originalImage}" width="1112" height="640">
+    <img class="modal-image" src="${originalImage}" >
   `);
+  modalWindow.element().classList.add("backdrop")
 
   modalWindow.show();
+  ;
 
   // закриття клавішею Escape
   const onEscapePress = e => {
