@@ -25,15 +25,20 @@ body{
   display: block;
   object-fit: cover;
 }
-.modal{
+.backdrop{
 background: rgba(46, 47, 66, 0.8);;
   padding: 28px 164px ;
 }
-.modal-image{
+.basicLigthbox__placeholder{
   margin: 0 auto;
-  width:1112px;
-  height:640px;
-display: block;
-  object-fit: cover;}
+  
+}
+.modal-image{
+  margin: none;
+  width: 1112px;
+  height: 640px;
+  display: block;
+  object-fit: cover;
+}
 
   
